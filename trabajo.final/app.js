@@ -137,7 +137,7 @@ function cuotas(total){
 
             alert(`un solo pago en efectivo`)
 
-            alert(`El total a pagar es de ${total * 0.1}`)
+            alert(`El total a pagar es de ${total - (total * 0.1)}`)
 
             break; 
 
